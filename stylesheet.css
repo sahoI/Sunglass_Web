@@ -1,16 +1,13 @@
-body {
-    font-family: "Avenir Next"
-}
-
-li {
-    list-style: none;
-}
-.header {
-    background-color: darksalmon;
+.header{/*ヘッダーの場所決め*/
+    position:fixed;
+    font-family: 'Merriweather', serif;
+    top:0;
+    height: 150px;
+    width:100%;
+    left: 0px;
     color: white;
-    height: 140px;
+    background-color: darksalmon;
 }
-
 .sub-header {
     padding-left: 10px;
 }
@@ -18,7 +15,7 @@ li {
 .header-logo {
     padding-left: 20px;
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .header-list {
@@ -30,13 +27,34 @@ li {
     padding: 10px 10px;
     border: px solid black;
 }
-.contents {
-    
+.pageBodyMain{/*メイン*/
+    width: 600px;
+    relative: 60px;
+    float: left;
+    margin-top: 150px;
+/*    padding-top: 100px;*/
+/*   padding-bottom: 60px;*/
 }
-.title {
-    padding-top: 30px;
-    border-bottom: 3px solid beige;
+
+/*おしらせ*/
+.newlist{
+    width: 600px;
+    float: left;
+    margin-top: 10px;
 }
-.sentens {
-    font-size: 15px;
+.articleDetaileFoot{
+    width: 100px;
+    relative: 10px;
+    padding-left: 20px;
 }
+/*フッター*/
+.footer{
+    border-top: solid lpx #CCCCCC;
+    margin-top: 15px;
+}
+.copyright{
+    clear: both;
+    background-clip: padding-box;
+    background-color: darksalmon;
+}
+
