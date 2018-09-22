@@ -16,6 +16,7 @@
     padding-left: 20px;
     padding-top: 10px;
     font-size: 50px;
+    font-family: "Andale Mono";
 }
 
 .header-list {
@@ -25,16 +26,110 @@
 .header-list li {
     float: left;
     padding: 10px 10px;
-    border: px solid black;
+    border: 1px solid black;
+}
+.pageBody {
+    width: 1000px;
 }
 .pageBodyMain{/*メイン*/
     width: 600px;
     relative: 60px;
-    float: left;
-    margin-top: 150px;
+    float: right;
+    margin-top: 60px;
+    padding: 100px 100px;
 /*    padding-top: 100px;*/
 /*   padding-bottom: 60px;*/
 }
+.nabi { /*左側のナビ*/
+    float: left;
+    /*width: 200px;*/
+    margin-top: 150px;
+    position: fixed;
+    list-style-type: none;
+}
+.nabi ul {
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 200px;
+    border-top:1px solid #cccccc;
+    text-decoration:none;
+    color:#555555;
+}
+.nabi li {
+    background-color: #eeeeee;
+}
+.nabi li:hover {
+    background-color:#aaaaaa;
+}
+.nabi > li {
+    border-bottom: none;
+}
+.nabi li {
+    position: relative;
+    width: 150px;
+    height: 40px;
+}
+.nabi > li {
+    border-bottom: none;
+}
+.nabi li:last-child {
+    border-bottom: none;
+}
+.nabi li:hover > ul > li {
+    border-bottom: none;
+}
+.nabi li > ul > li:last-child {
+    border-bottom: none;
+}
+.nabi li a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 2.8;
+    padding: 0 5px;
+    background: #9fb7d4;
+    border-bottom: 1px solid #eee;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nabi > li:hover > a {/*layer-1*/
+    color: orange;
+    background: #afc6e2;
+}
+.nabi > li li:hover > a {/*layer-2*/
+    color: olive;
+    background: #afc6e2;
+}
+.nabi li:hover > ul > li {
+    overflow: visible;
+    top: -40px;
+    left: 110px;
+    height: 40px;
+}
+.nabi li ul li {
+    overflow: hidden;
+    height: 0;
+    left: 110px;
+    list-style: none;
+}
+.nabi li ul li a {
+    background: #9fb7d4;
+}
+.nabi li ul:before {
+    position: absolute;
+    content: "";
+    top: 14px;
+    left: 140px;
+    border: 5px solid transparent;
+    border-left: 5px solid #fff;
+}
+.nabi li:hover ul li ul li:hover > a {/*layer-3*/
+    color: pink;
+    background: #afc6e2;
+}
+.co
 
 /*おしらせ*/
 .newlist{
