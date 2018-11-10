@@ -120,9 +120,20 @@
 
 .title {
     background: linear-gradient(transparent 50%, yellow 50%);
-    /*-webkit-transform-origin: left center;*/
-    -webkit-transform: rotate(-0.8deg);
+}
 
+.icon li {
+    list-style: none;
+    float: left;
+}
+/*リンク*/
+.facebook {
+    zoom: 30%;
+    padding-right: 20px;
+}
+
+.twitter {
+    zoom: 11%;
 }
 
 .footer {
@@ -130,4 +141,5 @@
     height: 100%;
     background-color: #ff8119;
     padding-bottom: 10px;
+    float: right;
 }

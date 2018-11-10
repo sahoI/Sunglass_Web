@@ -40,3 +40,12 @@ li {
 .sentens {
     font-size: 15px;
 }
+
+/*リンク*/
+.facebook {
+    zoom: 70%;
+}
+
+.twitter {
+    zoom: 50%;
+}
