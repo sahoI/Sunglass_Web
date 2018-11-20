@@ -1,0 +1,51 @@
+body {
+    font-family: "Avenir Next"
+}
+
+li {
+    list-style: none;
+}
+.header {
+    background-color: darksalmon;
+    color: white;
+    height: 140px;
+}
+
+.sub-header {
+    padding-left: 10px;
+}
+
+.header-logo {
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.header-list {
+    font-size: 20px;
+    color: black;
+}
+.header-list li {
+    float: left;
+    padding: 10px 10px;
+    border: px solid black;
+}
+.contents {
+    
+}
+.title {
+    padding-top: 30px;
+    border-bottom: 3px solid beige;
+}
+.sentens {
+    font-size: 15px;
+}
+
+/*リンク*/
+.facebook {
+    zoom: 70%;
+}
+
+.twitter {
+    zoom: 50%;
+}
