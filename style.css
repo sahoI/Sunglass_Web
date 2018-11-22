@@ -54,12 +54,14 @@
     float: right;
     color: white;
     position: relative;
+    z-index: 10;
 }
 
 .sub-header {
     font-size: 20px;
     padding-top: 20px;
     padding-left: 100px;
+    z-index: auto;
 }
 
 .header-logo {
@@ -67,12 +69,14 @@
     font-size: 40px;
     padding-top: 10px;
     padding-left: 160px;
+    z-index: auto;
 }
 
 .header-english {
     font-family: "Libian SC";
     padding-top: 50px;
     padding-left: 165px;
+    z-index: auto;
 }
 
 .header-english p {
@@ -80,15 +84,21 @@
     letter-spacing: 20px;
 }
 
+.logo-img {
+    position:absolute;
+    top: 60px;
+    left: 65px;
+    float: left;
+    width: 80px;
+    height: 80px;
+    z-index: 0;
+}
 .main {
 
 }
 
 .contents {
     padding: 100px 100px;
-    /*padding-bottom: 50px;*/
-    /*padding-left: 100px;*/
-    /*padding-right: 100px;*/
     background-color: white;
 }
 
@@ -96,7 +106,6 @@
     padding: 5px 10px;
     background-color: white;
     box-shadow: 0 1px 6px #56638F;
-    /*overflow: hidden;*/
 }
 
 .sentens h4 {
@@ -136,7 +145,7 @@
     zoom: 11%;
 }
 
-.footer {
+footer {
     width: 100%;
     height: 100%;
     background-color: #ff8119;
