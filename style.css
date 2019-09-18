@@ -44,7 +44,13 @@
     color: white;
     height: 100%;
 }
-
+/*.member li {*/
+    /*text-decoration: none;*/
+/*}*/
+.member img {
+    height: 200px;
+    width: 200px;
+}
 /*.header-list li.active a {*/
 /*background-color: #333;*/
 /*color: white;*/
@@ -102,23 +108,36 @@
     background-color: white;
 }
 
-.sentens {
+.sentence {
     padding: 5px 10px;
     background-color: white;
     box-shadow: 0 1px 6px #56638F;
 }
 
-.sentens h4 {
+.sentence h4 {
     padding-left: 30px;
 }
 
-.sentens a {
+.sentence a {
     padding-bottom: 10px;
     padding-left: 30px;
 }
 
-.sentens p {
+.sentence p {
     letter-spacing: 2px;
+}
+.sentence li {
+    list-style: none;
+}
+.list {
+    display: inline-block;      /* インラインブロック要素にする */
+    /*background-color:  #ccc;    !* 背景色指定 *!*/
+    height:  350px;             /* 高さ指定 */
+    width: 30%;
+    /*float:left;*/
+}
+.list img {
+    text-align: center;
 }
 
 .contents img {
@@ -134,15 +153,17 @@
 .icon li {
     list-style: none;
     float: left;
+    display: block;
 }
 /*リンク*/
-.facebook {
-    zoom: 30%;
-    padding-right: 20px;
+.instagram {
+    zoom: 11%;
+    /*padding-right: 20px;*/
 }
 
 .twitter {
     zoom: 11%;
+    padding-right: 40px;
 }
 
 footer {
