@@ -44,13 +44,15 @@
     color: white;
     height: 100%;
 }
+
 /*.member li {*/
-    /*text-decoration: none;*/
+/*text-decoration: none;*/
 /*}*/
 .member img {
     height: 200px;
     width: 200px;
 }
+
 /*.header-list li.active a {*/
 /*background-color: #333;*/
 /*color: white;*/
@@ -91,7 +93,7 @@
 }
 
 .logo-img {
-    position:absolute;
+    position: absolute;
     top: 60px;
     left: 65px;
     float: left;
@@ -99,6 +101,7 @@
     height: 80px;
     z-index: 0;
 }
+
 .main {
 
 }
@@ -109,7 +112,7 @@
 }
 
 .sentence {
-    padding: 5px 10px;
+    padding: 10px 10px;
     background-color: white;
     box-shadow: 0 1px 6px #56638F;
 }
@@ -126,24 +129,19 @@
 .sentence p {
     letter-spacing: 2px;
 }
+
 .sentence li {
     list-style: none;
 }
+
 .list {
-    display: inline-block;      /* インラインブロック要素にする */
-    /*background-color:  #ccc;    !* 背景色指定 *!*/
-    height:  350px;             /* 高さ指定 */
-    width: 30%;
-    /*float:left;*/
-}
-.list img {
-    text-align: center;
+    display: inline-block; /* インラインブロック要素にする */
+    height: 400px; /* 高さ指定 */
+    width: 40%;
 }
 
-.contents img {
-    padding-left: 100px;
-    width: 500px;
-    height: 350px;
+.list img {
+    text-align: center;
 }
 
 .title {
@@ -155,6 +153,7 @@
     float: left;
     display: block;
 }
+
 /*リンク*/
 .instagram {
     zoom: 11%;
@@ -172,4 +171,8 @@ footer {
     background-color: #ff8119;
     padding-bottom: 10px;
     float: right;
+}
+
+td img {
+    padding-left: 20px;
 }
